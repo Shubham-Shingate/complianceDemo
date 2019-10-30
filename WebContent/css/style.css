@@ -1,0 +1,115 @@
+/*as comment added */
+  
+body{background-color:#f4f4f4 !important;font-size:14px;}
+   header{ background-color: #fff;
+    height: 50px;
+    box-sizing: border-box;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    border-top: 6px solid #337ab7;
+    position: fixed;
+    min-width: auto;
+    box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1);
+    float: left;
+    width: 100%;
+        text-align: center;}
+         .logo{
+  background: #ffffff url(../images/logo_datamatics.png) no-repeat right top;
+     font-weight: bold;
+    padding: 10px;
+    width: 153px;
+    margin: 0px auto;
+        } 
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+        padding: 0.1em 1em;}
+footer{position:fixed;
+ background-color: #fff;
+        border-top:1px solid #ddd;bottom:0px;padding:5px; float:left;
+        width:100%;}
+        .martb10{margin-top:10px;
+        margin-bottom:10px;}
+.martb20{margin-top:20px;
+        margin-bottom:20px;}
+.cust_checkbox{margin:0px !important;
+padding:0px;}
+.padtb60{padding-top:60px;padding-bottom:60px;}
+    
+/*cmt end */
+.tablediv {
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid grey;
+}
+
+.td2 {
+  /* text-align: left; */
+  padding: 8px;
+  font-size: 150%;
+  font-weight: bold;
+    color: #696969	;
+  
+}
+
+.table1 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.td1 {
+  text-align: left;
+  padding: 8px;
+}
+
+/* tr:nth-child(even){background-color: #f2f2f2}
+ */
+.th1 {
+  background-color: #4CAF50;
+  color: white;
+  text-align: left;
+  padding: 8px;
+}
+
+/*Tab CSS*/
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #05BD99;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color:  #04F1C3;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:  #04F1C3;
+}
+
+/* Style the tab content */
+
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
