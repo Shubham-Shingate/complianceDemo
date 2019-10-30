@@ -34,7 +34,7 @@ pageEncoding="ISO-8859-1" import="org.json.JSONObject,org.json.JSONException,jav
               $('.statusClass').click(function (){
                 	 var valuePass=this.id;
                 	 alert("value :: "+valuePass);
-				    // var valuePass = valuePass.replace("No of Original & copy", "No of Original copy");
+				    // var valuePass = valuePass.replace("No of Original & copy", "No of Original and copy");
 				    var valuePass_clean = encodeURIComponent(valuePass);
 				    //alert(valuePass_clean);
 
